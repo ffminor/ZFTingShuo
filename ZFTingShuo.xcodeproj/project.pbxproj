@@ -7,35 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B71B9DF5D733CE9FC16B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55621E917B7A07AF2AD31190 /* libPods.a */; };
+		2003E4E81A18FEF00068FAD6 /* TSRegisterUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4E61A18FEF00068FAD6 /* TSRegisterUserInfoViewController.swift */; };
+		2003E4E91A18FEF00068FAD6 /* TSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4E71A18FEF00068FAD6 /* TSRegisterViewController.swift */; };
+		2003E4EB1A18FF110068FAD6 /* TSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4EA1A18FF110068FAD6 /* TSBaseViewController.swift */; };
+		2003E4EE1A18FF7B0068FAD6 /* UploadTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4ED1A18FF7B0068FAD6 /* UploadTokenManager.swift */; };
+		2003E4F11A18FF950068FAD6 /* TSKeySignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4F01A18FF950068FAD6 /* TSKeySignature.m */; };
+		2003E5081A1900140068FAD6 /* TSApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4F21A1900140068FAD6 /* TSApiManager.swift */; };
+		2003E5091A1900140068FAD6 /* TSAucitonItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4F41A1900140068FAD6 /* TSAucitonItemCell.m */; };
+		2003E50A1A1900140068FAD6 /* TSAuctionInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4F61A1900140068FAD6 /* TSAuctionInfoCell.m */; };
+		2003E50B1A1900140068FAD6 /* TSAuctionInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4F81A1900140068FAD6 /* TSAuctionInfoViewController.m */; };
+		2003E50C1A1900140068FAD6 /* TSAuctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4FA1A1900140068FAD6 /* TSAuctionViewController.m */; };
+		2003E50D1A1900140068FAD6 /* TSBasicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4FC1A1900140068FAD6 /* TSBasicCell.m */; };
+		2003E50E1A1900140068FAD6 /* TSDataBaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4FD1A1900140068FAD6 /* TSDataBaseAction.swift */; };
+		2003E50F1A1900140068FAD6 /* TSGlobalDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E4FF1A1900140068FAD6 /* TSGlobalDataCache.m */; };
+		2003E5101A1900140068FAD6 /* TSHomeStoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E5011A1900140068FAD6 /* TSHomeStoryCell.m */; };
+		2003E5111A1900140068FAD6 /* TSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E5031A1900140068FAD6 /* TSMineViewController.m */; };
+		2003E5121A1900140068FAD6 /* TSStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E5051A1900140068FAD6 /* TSStoryViewController.m */; };
+		2003E5131A1900140068FAD6 /* TSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003E5071A1900140068FAD6 /* TSTabBarController.m */; };
+		2003E5151A1900440068FAD6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003E5141A1900440068FAD6 /* libsqlite3.dylib */; };
+		203F14331A4330DD00BC860D /* TSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 203F14321A4330DD00BC860D /* TSConnectionManager.m */; };
+		205786391A37E564005C5C6C /* UIColor+ZFTingShuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205786381A37E564005C5C6C /* UIColor+ZFTingShuo.swift */; };
+		205E6D071A1A621D000D5DB4 /* TSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 205E6D061A1A621D000D5DB4 /* TSHomeViewController.m */; };
+		207A63251A222BBB00DBC70B /* PYCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207A63231A222BBB00DBC70B /* PYCore.framework */; };
+		207A63261A222BBB00DBC70B /* PYData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207A63241A222BBB00DBC70B /* PYData.framework */; };
+		207A63281A222C9900DBC70B /* TSDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207A63271A222C9900DBC70B /* TSDataManager.swift */; };
+		207A632A1A222F7700DBC70B /* TSBaseBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207A63291A222F7700DBC70B /* TSBaseBean.swift */; };
+		207A632C1A22322D00DBC70B /* TSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207A632B1A22322D00DBC70B /* TSUser.swift */; };
+		208EF9181A344CDE00822F6B /* TSLoginFirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208EF9171A344CDE00822F6B /* TSLoginFirstPageViewController.swift */; };
 		20B720B61A08A7A100C5FC81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B720B51A08A7A100C5FC81 /* AppDelegate.swift */; };
-		20B720B81A08A7A100C5FC81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B720B71A08A7A100C5FC81 /* ViewController.swift */; };
 		20B720BB1A08A7A100C5FC81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B720B91A08A7A100C5FC81 /* Main.storyboard */; };
 		20B720BD1A08A7A100C5FC81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B720BC1A08A7A100C5FC81 /* Images.xcassets */; };
 		20B720C01A08A7A200C5FC81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B720BE1A08A7A200C5FC81 /* LaunchScreen.xib */; };
-		20B720CC1A08A7A200C5FC81 /* ZFTingShuoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B720CB1A08A7A200C5FC81 /* ZFTingShuoTests.swift */; };
+		20B720D71A08A8D000C5FC81 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B720D51A08A8D000C5FC81 /* Login.storyboard */; };
+		20B720FC1A08A94E00C5FC81 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720D91A08A94E00C5FC81 /* 01.png */; };
+		20B720FD1A08A94E00C5FC81 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DA1A08A94E00C5FC81 /* 04.png */; };
+		20B720FE1A08A94E00C5FC81 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DB1A08A94E00C5FC81 /* 07.png */; };
+		20B720FF1A08A94E00C5FC81 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DC1A08A94E00C5FC81 /* 12.png */; };
+		20B721001A08A94E00C5FC81 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DD1A08A94E00C5FC81 /* 13.png */; };
+		20B721011A08A94E00C5FC81 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DE1A08A94E00C5FC81 /* 14.png */; };
+		20B721021A08A94E00C5FC81 /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720DF1A08A94E00C5FC81 /* 18.png */; };
+		20B721031A08A94E00C5FC81 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E01A08A94E00C5FC81 /* 19.png */; };
+		20B721041A08A94E00C5FC81 /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E11A08A94E00C5FC81 /* 21.png */; };
+		20B721051A08A94E00C5FC81 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E21A08A94E00C5FC81 /* 22.png */; };
+		20B721061A08A94E00C5FC81 /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E31A08A94E00C5FC81 /* 27.png */; };
+		20B721071A08A94E00C5FC81 /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E41A08A94E00C5FC81 /* 28.png */; };
+		20B721081A08A94E00C5FC81 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B720E51A08A94E00C5FC81 /* 29.png */; };
+		20B7210D1A08A94E00C5FC81 /* login_bkg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20B720EA1A08A94E00C5FC81 /* login_bkg@2x.jpg */; };
+		20B7211A1A08A94E00C5FC81 /* register_bkg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20B720F71A08A94E00C5FC81 /* register_bkg@2x.jpg */; };
+		20B7231C1A08AB9200C5FC81 /* QiniuBlkputRet.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7224F1A08AB9200C5FC81 /* QiniuBlkputRet.m */; };
+		20B7231D1A08AB9200C5FC81 /* QiniuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B722511A08AB9200C5FC81 /* QiniuConfig.m */; };
+		20B7231E1A08AB9200C5FC81 /* QiniuHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B722531A08AB9200C5FC81 /* QiniuHttpClient.m */; };
+		20B7231F1A08AB9200C5FC81 /* QiniuResumableClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B722551A08AB9200C5FC81 /* QiniuResumableClient.m */; };
+		20B723201A08AB9200C5FC81 /* QiniuResumableUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B722571A08AB9200C5FC81 /* QiniuResumableUploader.m */; };
+		20B723211A08AB9200C5FC81 /* QiniuSimpleUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7225A1A08AB9200C5FC81 /* QiniuSimpleUploader.m */; };
+		20B723221A08AB9200C5FC81 /* QiniuUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7225D1A08AB9200C5FC81 /* QiniuUtils.m */; };
+		20B723441A08AE5400C5FC81 /* TSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B723431A08AE5400C5FC81 /* TSLoginViewController.swift */; };
+		20EC841C1A3D6AC100E962A5 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EC841B1A3D6AC100E962A5 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		20B720C61A08A7A200C5FC81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20B720A81A08A7A100C5FC81 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 20B720AF1A08A7A100C5FC81;
-			remoteInfo = ZFTingShuo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2003E4E51A18F94B0068FAD6 /* objective_c_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objective_c_header.h; sourceTree = "<group>"; };
+		2003E4E61A18FEF00068FAD6 /* TSRegisterUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRegisterUserInfoViewController.swift; sourceTree = "<group>"; };
+		2003E4E71A18FEF00068FAD6 /* TSRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRegisterViewController.swift; sourceTree = "<group>"; };
+		2003E4EA1A18FF110068FAD6 /* TSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSBaseViewController.swift; sourceTree = "<group>"; };
+		2003E4ED1A18FF7B0068FAD6 /* UploadTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTokenManager.swift; sourceTree = "<group>"; };
+		2003E4EF1A18FF950068FAD6 /* TSKeySignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKeySignature.h; sourceTree = "<group>"; };
+		2003E4F01A18FF950068FAD6 /* TSKeySignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKeySignature.m; sourceTree = "<group>"; };
+		2003E4F21A1900140068FAD6 /* TSApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSApiManager.swift; sourceTree = "<group>"; };
+		2003E4F31A1900140068FAD6 /* TSAucitonItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAucitonItemCell.h; sourceTree = "<group>"; };
+		2003E4F41A1900140068FAD6 /* TSAucitonItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAucitonItemCell.m; sourceTree = "<group>"; };
+		2003E4F51A1900140068FAD6 /* TSAuctionInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAuctionInfoCell.h; sourceTree = "<group>"; };
+		2003E4F61A1900140068FAD6 /* TSAuctionInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAuctionInfoCell.m; sourceTree = "<group>"; };
+		2003E4F71A1900140068FAD6 /* TSAuctionInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAuctionInfoViewController.h; sourceTree = "<group>"; };
+		2003E4F81A1900140068FAD6 /* TSAuctionInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAuctionInfoViewController.m; sourceTree = "<group>"; };
+		2003E4F91A1900140068FAD6 /* TSAuctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAuctionViewController.h; sourceTree = "<group>"; };
+		2003E4FA1A1900140068FAD6 /* TSAuctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAuctionViewController.m; sourceTree = "<group>"; };
+		2003E4FB1A1900140068FAD6 /* TSBasicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBasicCell.h; sourceTree = "<group>"; };
+		2003E4FC1A1900140068FAD6 /* TSBasicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBasicCell.m; sourceTree = "<group>"; };
+		2003E4FD1A1900140068FAD6 /* TSDataBaseAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSDataBaseAction.swift; sourceTree = "<group>"; };
+		2003E4FE1A1900140068FAD6 /* TSGlobalDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGlobalDataCache.h; sourceTree = "<group>"; };
+		2003E4FF1A1900140068FAD6 /* TSGlobalDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGlobalDataCache.m; sourceTree = "<group>"; };
+		2003E5001A1900140068FAD6 /* TSHomeStoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHomeStoryCell.h; sourceTree = "<group>"; };
+		2003E5011A1900140068FAD6 /* TSHomeStoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHomeStoryCell.m; sourceTree = "<group>"; };
+		2003E5021A1900140068FAD6 /* TSMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMineViewController.h; sourceTree = "<group>"; };
+		2003E5031A1900140068FAD6 /* TSMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMineViewController.m; sourceTree = "<group>"; };
+		2003E5041A1900140068FAD6 /* TSStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSStoryViewController.h; sourceTree = "<group>"; };
+		2003E5051A1900140068FAD6 /* TSStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSStoryViewController.m; sourceTree = "<group>"; };
+		2003E5061A1900140068FAD6 /* TSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTabBarController.h; sourceTree = "<group>"; };
+		2003E5071A1900140068FAD6 /* TSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTabBarController.m; sourceTree = "<group>"; };
+		2003E5141A1900440068FAD6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		203F14311A4330DD00BC860D /* TSConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSConnectionManager.h; sourceTree = "<group>"; };
+		203F14321A4330DD00BC860D /* TSConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSConnectionManager.m; sourceTree = "<group>"; };
+		205786381A37E564005C5C6C /* UIColor+ZFTingShuo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ZFTingShuo.swift"; sourceTree = "<group>"; };
+		205E6D051A1A621D000D5DB4 /* TSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHomeViewController.h; sourceTree = "<group>"; };
+		205E6D061A1A621D000D5DB4 /* TSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHomeViewController.m; sourceTree = "<group>"; };
+		205E6D081A1A6490000D5DB4 /* TingShuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TingShuo.h; sourceTree = "<group>"; };
+		207A63231A222BBB00DBC70B /* PYCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PYCore.framework; path = System/Library/Frameworks/PYCore.framework; sourceTree = SDKROOT; };
+		207A63241A222BBB00DBC70B /* PYData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PYData.framework; path = System/Library/Frameworks/PYData.framework; sourceTree = SDKROOT; };
+		207A63271A222C9900DBC70B /* TSDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSDataManager.swift; sourceTree = "<group>"; };
+		207A63291A222F7700DBC70B /* TSBaseBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSBaseBean.swift; sourceTree = "<group>"; };
+		207A632B1A22322D00DBC70B /* TSUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUser.swift; sourceTree = "<group>"; };
+		208EF9171A344CDE00822F6B /* TSLoginFirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLoginFirstPageViewController.swift; sourceTree = "<group>"; };
 		20B720B01A08A7A100C5FC81 /* ZFTingShuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFTingShuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B720B41A08A7A100C5FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B720B51A08A7A100C5FC81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20B720B71A08A7A100C5FC81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20B720BA1A08A7A100C5FC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20B720BC1A08A7A100C5FC81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20B720BF1A08A7A200C5FC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		20B720C51A08A7A200C5FC81 /* ZFTingShuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFTingShuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20B720CA1A08A7A200C5FC81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20B720CB1A08A7A200C5FC81 /* ZFTingShuoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFTingShuoTests.swift; sourceTree = "<group>"; };
+		20B720D61A08A8D000C5FC81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		20B720D91A08A94E00C5FC81 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		20B720DA1A08A94E00C5FC81 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		20B720DB1A08A94E00C5FC81 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		20B720DC1A08A94E00C5FC81 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		20B720DD1A08A94E00C5FC81 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		20B720DE1A08A94E00C5FC81 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		20B720DF1A08A94E00C5FC81 /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		20B720E01A08A94E00C5FC81 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		20B720E11A08A94E00C5FC81 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		20B720E21A08A94E00C5FC81 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		20B720E31A08A94E00C5FC81 /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		20B720E41A08A94E00C5FC81 /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		20B720E51A08A94E00C5FC81 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		20B720EA1A08A94E00C5FC81 /* login_bkg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_bkg@2x.jpg"; sourceTree = "<group>"; };
+		20B720F71A08A94E00C5FC81 /* register_bkg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "register_bkg@2x.jpg"; sourceTree = "<group>"; };
+		20B7224E1A08AB9200C5FC81 /* QiniuBlkputRet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuBlkputRet.h; sourceTree = "<group>"; };
+		20B7224F1A08AB9200C5FC81 /* QiniuBlkputRet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuBlkputRet.m; sourceTree = "<group>"; };
+		20B722501A08AB9200C5FC81 /* QiniuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuConfig.h; sourceTree = "<group>"; };
+		20B722511A08AB9200C5FC81 /* QiniuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuConfig.m; sourceTree = "<group>"; };
+		20B722521A08AB9200C5FC81 /* QiniuHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuHttpClient.h; sourceTree = "<group>"; };
+		20B722531A08AB9200C5FC81 /* QiniuHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuHttpClient.m; sourceTree = "<group>"; };
+		20B722541A08AB9200C5FC81 /* QiniuResumableClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuResumableClient.h; sourceTree = "<group>"; };
+		20B722551A08AB9200C5FC81 /* QiniuResumableClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuResumableClient.m; sourceTree = "<group>"; };
+		20B722561A08AB9200C5FC81 /* QiniuResumableUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuResumableUploader.h; sourceTree = "<group>"; };
+		20B722571A08AB9200C5FC81 /* QiniuResumableUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuResumableUploader.m; sourceTree = "<group>"; };
+		20B722581A08AB9200C5FC81 /* QiniuSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QiniuSDK-Prefix.pch"; sourceTree = "<group>"; };
+		20B722591A08AB9200C5FC81 /* QiniuSimpleUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuSimpleUploader.h; sourceTree = "<group>"; };
+		20B7225A1A08AB9200C5FC81 /* QiniuSimpleUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuSimpleUploader.m; sourceTree = "<group>"; };
+		20B7225B1A08AB9200C5FC81 /* QiniuUploadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUploadDelegate.h; sourceTree = "<group>"; };
+		20B7225C1A08AB9200C5FC81 /* QiniuUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUtils.h; sourceTree = "<group>"; };
+		20B7225D1A08AB9200C5FC81 /* QiniuUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiniuUtils.m; sourceTree = "<group>"; };
+		20B723431A08AE5400C5FC81 /* TSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLoginViewController.swift; sourceTree = "<group>"; };
+		20EC841B1A3D6AC100E962A5 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		4A383D5D83A5E5724042ED62 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		50043750FE48EB31511BC389 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		55621E917B7A07AF2AD31190 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,25 +159,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20B720C21A08A7A200C5FC81 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				20EC841C1A3D6AC100E962A5 /* libicucore.dylib in Frameworks */,
+				207A63251A222BBB00DBC70B /* PYCore.framework in Frameworks */,
+				207A63261A222BBB00DBC70B /* PYData.framework in Frameworks */,
+				2003E5151A1900440068FAD6 /* libsqlite3.dylib in Frameworks */,
+				16B71B9DF5D733CE9FC16B0B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0923F1A4E57E1760241BAF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55621E917B7A07AF2AD31190 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2003E4EC1A18FF5C0068FAD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2003E4EF1A18FF950068FAD6 /* TSKeySignature.h */,
+				2003E4F01A18FF950068FAD6 /* TSKeySignature.m */,
+				2003E4ED1A18FF7B0068FAD6 /* UploadTokenManager.swift */,
+				207A63291A222F7700DBC70B /* TSBaseBean.swift */,
+				207A632B1A22322D00DBC70B /* TSUser.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		205786371A37E536005C5C6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				205786381A37E564005C5C6C /* UIColor+ZFTingShuo.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		20B720A71A08A7A100C5FC81 = {
 			isa = PBXGroup;
 			children = (
+				20EC841B1A3D6AC100E962A5 /* libicucore.dylib */,
+				207A63231A222BBB00DBC70B /* PYCore.framework */,
+				207A63241A222BBB00DBC70B /* PYData.framework */,
+				2003E5141A1900440068FAD6 /* libsqlite3.dylib */,
+				20B721221A08AB9100C5FC81 /* ThirdParties */,
 				20B720B21A08A7A100C5FC81 /* ZFTingShuo */,
-				20B720C81A08A7A200C5FC81 /* ZFTingShuoTests */,
 				20B720B11A08A7A100C5FC81 /* Products */,
+				35973C8F8AB49B26C1B16655 /* Pods */,
+				0923F1A4E57E1760241BAF12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				20B720B01A08A7A100C5FC81 /* ZFTingShuo.app */,
-				20B720C51A08A7A200C5FC81 /* ZFTingShuoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +224,10 @@
 		20B720B21A08A7A100C5FC81 /* ZFTingShuo */ = {
 			isa = PBXGroup;
 			children = (
-				20B720B51A08A7A100C5FC81 /* AppDelegate.swift */,
-				20B720B71A08A7A100C5FC81 /* ViewController.swift */,
+				20B7233F1A08ADE900C5FC81 /* Classes */,
+				20B720D81A08A94E00C5FC81 /* Resources */,
 				20B720B91A08A7A100C5FC81 /* Main.storyboard */,
+				20B720D51A08A8D000C5FC81 /* Login.storyboard */,
 				20B720BC1A08A7A100C5FC81 /* Images.xcassets */,
 				20B720BE1A08A7A200C5FC81 /* LaunchScreen.xib */,
 				20B720B31A08A7A100C5FC81 /* Supporting Files */,
@@ -91,25 +239,155 @@
 			isa = PBXGroup;
 			children = (
 				20B720B41A08A7A100C5FC81 /* Info.plist */,
+				2003E4E51A18F94B0068FAD6 /* objective_c_header.h */,
+				205E6D081A1A6490000D5DB4 /* TingShuo.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		20B720C81A08A7A200C5FC81 /* ZFTingShuoTests */ = {
+		20B720D81A08A94E00C5FC81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				20B720CB1A08A7A200C5FC81 /* ZFTingShuoTests.swift */,
-				20B720C91A08A7A200C5FC81 /* Supporting Files */,
+				20B720D91A08A94E00C5FC81 /* 01.png */,
+				20B720DA1A08A94E00C5FC81 /* 04.png */,
+				20B720DB1A08A94E00C5FC81 /* 07.png */,
+				20B720DC1A08A94E00C5FC81 /* 12.png */,
+				20B720DD1A08A94E00C5FC81 /* 13.png */,
+				20B720DE1A08A94E00C5FC81 /* 14.png */,
+				20B720DF1A08A94E00C5FC81 /* 18.png */,
+				20B720E01A08A94E00C5FC81 /* 19.png */,
+				20B720E11A08A94E00C5FC81 /* 21.png */,
+				20B720E21A08A94E00C5FC81 /* 22.png */,
+				20B720E31A08A94E00C5FC81 /* 27.png */,
+				20B720E41A08A94E00C5FC81 /* 28.png */,
+				20B720E51A08A94E00C5FC81 /* 29.png */,
+				20B720EA1A08A94E00C5FC81 /* login_bkg@2x.jpg */,
+				20B720F71A08A94E00C5FC81 /* register_bkg@2x.jpg */,
 			);
-			path = ZFTingShuoTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		20B720C91A08A7A200C5FC81 /* Supporting Files */ = {
+		20B721221A08AB9100C5FC81 /* ThirdParties */ = {
 			isa = PBXGroup;
 			children = (
-				20B720CA1A08A7A200C5FC81 /* Info.plist */,
+				20B721BA1A08AB9100C5FC81 /* ios-sdk */,
 			);
-			name = "Supporting Files";
+			name = ThirdParties;
+			path = ZFTingShuo/ThirdParties;
+			sourceTree = "<group>";
+		};
+		20B721BA1A08AB9100C5FC81 /* ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				20B722391A08AB9200C5FC81 /* QiniuSDK */,
+			);
+			path = "ios-sdk";
+			sourceTree = "<group>";
+		};
+		20B722391A08AB9200C5FC81 /* QiniuSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20B722581A08AB9200C5FC81 /* QiniuSDK-Prefix.pch */,
+				20B7224E1A08AB9200C5FC81 /* QiniuBlkputRet.h */,
+				20B7224F1A08AB9200C5FC81 /* QiniuBlkputRet.m */,
+				20B722501A08AB9200C5FC81 /* QiniuConfig.h */,
+				20B722511A08AB9200C5FC81 /* QiniuConfig.m */,
+				20B722521A08AB9200C5FC81 /* QiniuHttpClient.h */,
+				20B722531A08AB9200C5FC81 /* QiniuHttpClient.m */,
+				20B722541A08AB9200C5FC81 /* QiniuResumableClient.h */,
+				20B722551A08AB9200C5FC81 /* QiniuResumableClient.m */,
+				20B722561A08AB9200C5FC81 /* QiniuResumableUploader.h */,
+				20B722571A08AB9200C5FC81 /* QiniuResumableUploader.m */,
+				20B722591A08AB9200C5FC81 /* QiniuSimpleUploader.h */,
+				20B7225A1A08AB9200C5FC81 /* QiniuSimpleUploader.m */,
+				20B7225B1A08AB9200C5FC81 /* QiniuUploadDelegate.h */,
+				20B7225C1A08AB9200C5FC81 /* QiniuUtils.h */,
+				20B7225D1A08AB9200C5FC81 /* QiniuUtils.m */,
+			);
+			path = QiniuSDK;
+			sourceTree = "<group>";
+		};
+		20B7233F1A08ADE900C5FC81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20EC84131A3D633500E962A5 /* Services */,
+				205786371A37E536005C5C6C /* Extensions */,
+				205E6D051A1A621D000D5DB4 /* TSHomeViewController.h */,
+				205E6D061A1A621D000D5DB4 /* TSHomeViewController.m */,
+				2003E4F21A1900140068FAD6 /* TSApiManager.swift */,
+				2003E4F31A1900140068FAD6 /* TSAucitonItemCell.h */,
+				2003E4F41A1900140068FAD6 /* TSAucitonItemCell.m */,
+				2003E4F51A1900140068FAD6 /* TSAuctionInfoCell.h */,
+				2003E4F61A1900140068FAD6 /* TSAuctionInfoCell.m */,
+				2003E4F71A1900140068FAD6 /* TSAuctionInfoViewController.h */,
+				2003E4F81A1900140068FAD6 /* TSAuctionInfoViewController.m */,
+				2003E4F91A1900140068FAD6 /* TSAuctionViewController.h */,
+				2003E4FA1A1900140068FAD6 /* TSAuctionViewController.m */,
+				2003E4FB1A1900140068FAD6 /* TSBasicCell.h */,
+				2003E4FC1A1900140068FAD6 /* TSBasicCell.m */,
+				2003E4FD1A1900140068FAD6 /* TSDataBaseAction.swift */,
+				2003E4FE1A1900140068FAD6 /* TSGlobalDataCache.h */,
+				2003E4FF1A1900140068FAD6 /* TSGlobalDataCache.m */,
+				2003E5001A1900140068FAD6 /* TSHomeStoryCell.h */,
+				2003E5011A1900140068FAD6 /* TSHomeStoryCell.m */,
+				2003E5021A1900140068FAD6 /* TSMineViewController.h */,
+				2003E5031A1900140068FAD6 /* TSMineViewController.m */,
+				2003E5041A1900140068FAD6 /* TSStoryViewController.h */,
+				2003E5051A1900140068FAD6 /* TSStoryViewController.m */,
+				2003E5061A1900140068FAD6 /* TSTabBarController.h */,
+				2003E5071A1900140068FAD6 /* TSTabBarController.m */,
+				2003E4EC1A18FF5C0068FAD6 /* Models */,
+				20B723411A08AE2000C5FC81 /* ViewControllers */,
+				20B723401A08AE0B00C5FC81 /* App */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		20B723401A08AE0B00C5FC81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20B720B51A08A7A100C5FC81 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		20B723411A08AE2000C5FC81 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2003E4EA1A18FF110068FAD6 /* TSBaseViewController.swift */,
+				20B723421A08AE2E00C5FC81 /* Login */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		20B723421A08AE2E00C5FC81 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2003E4E61A18FEF00068FAD6 /* TSRegisterUserInfoViewController.swift */,
+				2003E4E71A18FEF00068FAD6 /* TSRegisterViewController.swift */,
+				20B723431A08AE5400C5FC81 /* TSLoginViewController.swift */,
+				208EF9171A344CDE00822F6B /* TSLoginFirstPageViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		20EC84131A3D633500E962A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				207A63271A222C9900DBC70B /* TSDataManager.swift */,
+				203F14311A4330DD00BC860D /* TSConnectionManager.h */,
+				203F14321A4330DD00BC860D /* TSConnectionManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		35973C8F8AB49B26C1B16655 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50043750FE48EB31511BC389 /* Pods.debug.xcconfig */,
+				4A383D5D83A5E5724042ED62 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +397,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B720CF1A08A7A200C5FC81 /* Build configuration list for PBXNativeTarget "ZFTingShuo" */;
 			buildPhases = (
+				DEDE0ABA142F35464B6DCBB0 /* Check Pods Manifest.lock */,
 				20B720AC1A08A7A100C5FC81 /* Sources */,
 				20B720AD1A08A7A100C5FC81 /* Frameworks */,
 				20B720AE1A08A7A100C5FC81 /* Resources */,
+				55D6F60E0FF89A042F54B0C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,24 +411,6 @@
 			productName = ZFTingShuo;
 			productReference = 20B720B01A08A7A100C5FC81 /* ZFTingShuo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		20B720C41A08A7A200C5FC81 /* ZFTingShuoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20B720D21A08A7A200C5FC81 /* Build configuration list for PBXNativeTarget "ZFTingShuoTests" */;
-			buildPhases = (
-				20B720C11A08A7A200C5FC81 /* Sources */,
-				20B720C21A08A7A200C5FC81 /* Frameworks */,
-				20B720C31A08A7A200C5FC81 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20B720C71A08A7A200C5FC81 /* PBXTargetDependency */,
-			);
-			name = ZFTingShuoTests;
-			productName = ZFTingShuoTests;
-			productReference = 20B720C51A08A7A200C5FC81 /* ZFTingShuoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -160,10 +422,6 @@
 				TargetAttributes = {
 					20B720AF1A08A7A100C5FC81 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					20B720C41A08A7A200C5FC81 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 20B720AF1A08A7A100C5FC81;
 					};
 				};
 			};
@@ -181,7 +439,6 @@
 			projectRoot = "";
 			targets = (
 				20B720AF1A08A7A100C5FC81 /* ZFTingShuo */,
-				20B720C41A08A7A200C5FC81 /* ZFTingShuoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,48 +448,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B7211A1A08A94E00C5FC81 /* register_bkg@2x.jpg in Resources */,
+				20B721041A08A94E00C5FC81 /* 21.png in Resources */,
+				20B721051A08A94E00C5FC81 /* 22.png in Resources */,
+				20B721011A08A94E00C5FC81 /* 14.png in Resources */,
+				20B721081A08A94E00C5FC81 /* 29.png in Resources */,
+				20B721071A08A94E00C5FC81 /* 28.png in Resources */,
+				20B721021A08A94E00C5FC81 /* 18.png in Resources */,
+				20B720FC1A08A94E00C5FC81 /* 01.png in Resources */,
+				20B721061A08A94E00C5FC81 /* 27.png in Resources */,
+				20B720D71A08A8D000C5FC81 /* Login.storyboard in Resources */,
+				20B721001A08A94E00C5FC81 /* 13.png in Resources */,
+				20B720FE1A08A94E00C5FC81 /* 07.png in Resources */,
 				20B720BB1A08A7A100C5FC81 /* Main.storyboard in Resources */,
+				20B720FF1A08A94E00C5FC81 /* 12.png in Resources */,
+				20B720FD1A08A94E00C5FC81 /* 04.png in Resources */,
+				20B7210D1A08A94E00C5FC81 /* login_bkg@2x.jpg in Resources */,
 				20B720C01A08A7A200C5FC81 /* LaunchScreen.xib in Resources */,
 				20B720BD1A08A7A100C5FC81 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20B720C31A08A7A200C5FC81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				20B721031A08A94E00C5FC81 /* 19.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55D6F60E0FF89A042F54B0C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEDE0ABA142F35464B6DCBB0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20B720AC1A08A7A100C5FC81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B720B81A08A7A100C5FC81 /* ViewController.swift in Sources */,
+				2003E5081A1900140068FAD6 /* TSApiManager.swift in Sources */,
+				2003E50A1A1900140068FAD6 /* TSAuctionInfoCell.m in Sources */,
+				20B723221A08AB9200C5FC81 /* QiniuUtils.m in Sources */,
+				2003E50B1A1900140068FAD6 /* TSAuctionInfoViewController.m in Sources */,
+				2003E5121A1900140068FAD6 /* TSStoryViewController.m in Sources */,
+				207A632C1A22322D00DBC70B /* TSUser.swift in Sources */,
+				207A632A1A222F7700DBC70B /* TSBaseBean.swift in Sources */,
+				2003E4EB1A18FF110068FAD6 /* TSBaseViewController.swift in Sources */,
+				20B723211A08AB9200C5FC81 /* QiniuSimpleUploader.m in Sources */,
+				20B7231D1A08AB9200C5FC81 /* QiniuConfig.m in Sources */,
+				2003E5091A1900140068FAD6 /* TSAucitonItemCell.m in Sources */,
+				208EF9181A344CDE00822F6B /* TSLoginFirstPageViewController.swift in Sources */,
+				2003E4F11A18FF950068FAD6 /* TSKeySignature.m in Sources */,
+				2003E50F1A1900140068FAD6 /* TSGlobalDataCache.m in Sources */,
+				2003E5131A1900140068FAD6 /* TSTabBarController.m in Sources */,
+				2003E4EE1A18FF7B0068FAD6 /* UploadTokenManager.swift in Sources */,
+				203F14331A4330DD00BC860D /* TSConnectionManager.m in Sources */,
+				20B7231E1A08AB9200C5FC81 /* QiniuHttpClient.m in Sources */,
+				2003E50D1A1900140068FAD6 /* TSBasicCell.m in Sources */,
+				20B723201A08AB9200C5FC81 /* QiniuResumableUploader.m in Sources */,
+				205786391A37E564005C5C6C /* UIColor+ZFTingShuo.swift in Sources */,
+				20B7231F1A08AB9200C5FC81 /* QiniuResumableClient.m in Sources */,
 				20B720B61A08A7A100C5FC81 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20B720C11A08A7A200C5FC81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20B720CC1A08A7A200C5FC81 /* ZFTingShuoTests.swift in Sources */,
+				2003E50E1A1900140068FAD6 /* TSDataBaseAction.swift in Sources */,
+				205E6D071A1A621D000D5DB4 /* TSHomeViewController.m in Sources */,
+				2003E5111A1900140068FAD6 /* TSMineViewController.m in Sources */,
+				2003E50C1A1900140068FAD6 /* TSAuctionViewController.m in Sources */,
+				20B723441A08AE5400C5FC81 /* TSLoginViewController.swift in Sources */,
+				2003E4E91A18FEF00068FAD6 /* TSRegisterViewController.swift in Sources */,
+				207A63281A222C9900DBC70B /* TSDataManager.swift in Sources */,
+				20B7231C1A08AB9200C5FC81 /* QiniuBlkputRet.m in Sources */,
+				2003E5101A1900140068FAD6 /* TSHomeStoryCell.m in Sources */,
+				2003E4E81A18FEF00068FAD6 /* TSRegisterUserInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		20B720C71A08A7A200C5FC81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 20B720AF1A08A7A100C5FC81 /* ZFTingShuo */;
-			targetProxy = 20B720C61A08A7A200C5FC81 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		20B720B91A08A7A100C5FC81 /* Main.storyboard */ = {
@@ -249,6 +563,14 @@
 				20B720BF1A08A7A200C5FC81 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		20B720D51A08A8D000C5FC81 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B720D61A08A8D000C5FC81 /* Base */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -333,55 +655,31 @@
 		};
 		20B720D01A08A7A200C5FC81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50043750FE48EB31511BC389 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = ZFTingShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_MODULE_NAME = SwiftModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFTingShuo/objective_c_header.h";
 			};
 			name = Debug;
 		};
 		20B720D11A08A7A200C5FC81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A383D5D83A5E5724042ED62 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = ZFTingShuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_MODULE_NAME = SwiftModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		20B720D31A08A7A200C5FC81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ZFTingShuoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFTingShuo.app/ZFTingShuo";
-			};
-			name = Debug;
-		};
-		20B720D41A08A7A200C5FC81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ZFTingShuoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFTingShuo.app/ZFTingShuo";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFTingShuo/objective_c_header.h";
 			};
 			name = Release;
 		};
@@ -404,14 +702,7 @@
 				20B720D11A08A7A200C5FC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		20B720D21A08A7A200C5FC81 /* Build configuration list for PBXNativeTarget "ZFTingShuoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20B720D31A08A7A200C5FC81 /* Debug */,
-				20B720D41A08A7A200C5FC81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,20 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define TS_COLOR_BKG        [UIColor colorWithRed:(CGFloat)0xF0/0xFF green:(CGFloat)0xF0/0xFF blue:(CGFloat)0xF0/0xFF alpha:1]
+#define TS_COLOR_SUBTILTE   [UIColor blackColor]
+#define TS_COLOR_THEME      [UIColor colorWithRed:(CGFloat)0x30/0xFF green:(CGFloat)0x69/0xFF blue:(CGFloat)0xB1/0xFF alpha:1]
